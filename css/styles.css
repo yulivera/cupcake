@@ -1,0 +1,154 @@
+@font-face{
+    font-family: pincel;
+    src: url(Freakin.ttf);
+}
+@font-face{
+    font-family: cuerpo;
+    src: url(Pompiere-Regular.ttf);
+}
+
+body{
+    overflow-x: hidden;
+    /*font-family: 'GulimChe',Courier, monospace;*/
+    font-family: cuerpo, Courier, monospace;
+    font-size: 20px;
+}
+
+h1{
+    font-family: pincel;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #747274;
+}
+
+
+.navbar{
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(87,33,89, .4)!important;
+}
+
+.navbar-nav .nav-link{
+    color: #747274;
+    padding-top: .8rem;
+}
+
+.nav-link{
+    font-family: 'MV Boli';
+}
+
+.imagen-fondo1{
+    background-image: url(../images/bake.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.color-fondo1{
+    background: rgba(87,33,89, .5);
+    height: 100vh;
+}
+
+.logo11{
+    position: absolute;
+    opacity: .6;
+    width: 100%;
+    max-width: 400px;
+    top: 35px;
+    transform: translateX(-50%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text h1{
+    color: rgb(255,255,255);
+}
+/*FOOTER CON FONDO*/
+.img-fondo2{
+    position: relative;
+    background: url(../images/cup-cho.jpg);
+    background-size: cover;
+    min-height: 390px;
+    height: 50vh;
+}
+
+.color-fondo{
+    position: relative;
+    background: rgba(87,33,89, .8);
+    width: 100%;
+    height: 100%;
+}
+
+/*centro direcciones HORARIO*/
+.muestra{
+    /*padding: 2rem;*/
+    position: relative;
+    background: url(../images/chocolate.jpg);
+    background-size: cover;
+    /*min-height: 250px;*/
+    width: 100%;
+    height: 100%;
+}
+
+.color-fondo3{
+    padding: 2rem;
+    position: relative;
+    background: rgba(89,122,158, .7);
+    width: 100%;
+    height: 100%;
+   /* bottom: 0;
+    top: 0;*/
+}
+
+.muestra i{
+    padding: .5rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+ .muestra h2{
+    font-family: pincel;
+    color: #3a3a3c;
+ }
+
+
+/*CATALOGO*/
+
+.card-body h2{
+    font-family: pincel;
+    font-size: 30px;
+    color: #747274;
+}
+
+
+footer{
+    color: #ffffff;
+
+}
+
+footer img{
+    height: 10rem;
+}
+
+footer a{
+    padding: .5rem;
+    color: #ffffff;
+}
+footer a:hover{
+    color: #af3e7e;
+}
+
+footer hr{
+     width: 80%;
+     margin-top: .8rem;
+     margin-bottom: 1rem;
+}
+
+@media (max-width: 767px){
+   #contact .contactos img{
+        display: none;
+    } 
+}
